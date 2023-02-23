@@ -83,5 +83,5 @@ $(document).ready(function () {
   function myFunction() {
   var element = document.getElementById("myDIV");
   element.classList.toggle("hidden");
-  ham.classList.toggle("active");
+ element.classList.toggle("activeham");
   }

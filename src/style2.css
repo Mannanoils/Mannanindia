@@ -63,14 +63,13 @@
   animation-name: fade;
   animation-duration: 1s;
 }
-.navbar.active {
-  display: block;
-  animation: fade .5s;
+.navbar.activeham {
+  animation: fadeham .8s;
 }
 
-@keyframes fade {
-  from{transform: translateX(-200px); opacity: 0;}
-  to {transform: translateX(0px); opacity: 1;}
+@keyframes fadeham {
+  0%{transform: height(0px); opacity: 0;}
+  100% {transform: height(100%); opacity: 1;}
 }
 @keyframes fade {
   from {

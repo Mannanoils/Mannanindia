@@ -23,15 +23,74 @@
     <link rel="stylesheet" href="./src/style2.css" />
   </head>
   <body class="antialiased font-Montserrat">
-        <header class="bg-manuf_bg py-5 bg-no-repeat w-full bg-cover h-1/2 md:h-1/2 md:px-0 px-5 ">
-      <a href="index.html"
-        ><img
-          class="w-48 h-24 object-contain lg:mx-7 mx-auto"
-          src="./src/assets/mannan_logo.png"
-          alt=""
-      /></a>
+       <nav
+      class="z-50 w-full lg:mt-2 top-0 sticky lg:absolute flex-wrap lg:flex-nowrap flex justify-between lg:justify-between items-center bg-green-800 lg:shadow-none shadow-2xl  lg:h-fit lg:bg-transparent lg:px-10"
+    >
+      <img
+        class="lg:w-48 lg:h-24 w-24 h-16 object-contain lg:block mx-2"
+        src="./src/assets/mannan_logo.png"
+        alt=""
+      />
+      <a href="javascript:void(0);" class="icon cursor-pointer lg:hidden" onclick="myFunction()">
+        <div class="p-4 space-y-2  ">
+          <span class="block w-10 h-1 bg-gray-100 rounded"></span>
+          <span class="block w-10 h-1 bg-gray-100 rounded"></span>
+          <span class="block w-10 h-1 bg-gray-100 rounded"></span>
+        </div>
+      </a>
 
-      <div class="justify-evenly flex-row flex items-center h-1/2">
+      <ul
+       id="myDIV" class="text-white navbar font-poppins text-lg lg:static absolute top-6 text-center lg:text-left flex-row rounded-b-lg shadow-green-500  font-medium hidden lg:text-2xl justify-center my-10 items-center lg:items-between lg:w-3/5 lg:justify-between bg-green-800 lg:bg-transparent w-full lg:h-full lg:flex md:text-base"
+      >
+        <a href="index.html">
+          <li
+            class="mx-10 my-4 lg:my-0 group transition duration-300 hover:cursor-pointer"
+          >
+            Home
+            <span
+              class="mb-1 bg-repeat-round block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"
+            ></span></li
+        ></a>
+        <a href="Knowus.html"
+          ><li
+            class="mx-10 my-4 lg:my-0 group transition duration-300 hover:cursor-pointer"
+          >
+            About Us
+            <span
+              class="mb-1 bg-repeat-round block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"
+            ></span></li
+        ></a>
+        <a href="Manufacturing.html"
+          ><li
+            class="mx-10 my-4 lg:my-0 group transition duration-300 hover:cursor-pointer"
+          >
+            Process
+            <span
+              class="mb-1 bg-repeat-round block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"
+            ></span></li
+        ></a>
+        <a href="oneltrjar.html"
+          ><li
+            class="mx-10 my-4 lg:my-0 group transition duration-300 hover:cursor-pointer"
+          >
+            Products
+            <span
+              class="mb-1 bg-repeat-round block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"
+            ></span></li
+        ></a>
+        <a href="contact_us.html">
+          <li
+            class="mx-10 my-4 lg:my-0 group transition duration-300 hover:cursor-pointer"
+          >
+            Contact
+            <span
+              class="mb-0 bg-repeat-round block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"
+            ></span></li
+        ></a>
+      </ul>
+    </nav>
+        <header class="bg-manuf_bg py-5 bg-no-repeat w-full bg-cover h-1/2 md:h-1/2 md:px-0 px-5 flex justify-center items-center ">
+      <div class="justify-evenly flex-row flex items-center h-1/2 w-full">
         <div class="w-10 h-10">
           <a href="coprapurchase&sort.html"
             ><img
@@ -157,10 +216,11 @@
             <div class="pr-5">
               <img src="./src/assets/mail.svg" alt="" />
             </div>
-            <div class="font-light md:font-medium text-white">mannancare0@gmail.com</div>
+            <a href="mailto:mannancare0@gmail.com" class="font-light md:font-medium text-white">mannancare0@gmail.com</a>
           </div>
         </div>
       </div>
     </footer>
   </body>
+  <script src="./src/js/app.js"></script>
 </html>
