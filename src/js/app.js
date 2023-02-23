@@ -79,7 +79,9 @@ $(document).ready(function () {
     menu.classList.toggle("hidden");
     alert("dsfsdf")
   });
+  let ham = document.querySelector(".navbar");
   function myFunction() {
   var element = document.getElementById("myDIV");
   element.classList.toggle("hidden");
+  ham.classList.toggle("active");
   }

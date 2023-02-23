@@ -63,7 +63,15 @@
   animation-name: fade;
   animation-duration: 1s;
 }
+.navbar.active {
+  display: block;
+  animation: fade .5s;
+}
 
+@keyframes fade {
+  from{transform: translateX(-200px); opacity: 0;}
+  to {transform: translateX(0px); opacity: 1;}
+}
 @keyframes fade {
   from {
     opacity: 0.8;
