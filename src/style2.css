@@ -101,10 +101,12 @@
   .next,
   .text {
     font-size: 9px;
-    top: 150px;
-    left: 10px;
-    width: 90%;
-    text-align: left;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    text-align: center;
   }
 }
-

@@ -685,6 +685,11 @@ video {
   margin-bottom: auto;
 }
 
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mb-0{
   margin-bottom: 0px;
 }
@@ -1908,6 +1913,11 @@ video {
   .lg\:my-28{
     margin-top: 7rem;
     margin-bottom: 7rem;
+  }
+
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:mb-5{
