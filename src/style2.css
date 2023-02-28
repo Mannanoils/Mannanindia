@@ -20,7 +20,9 @@
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
+.clip{
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
 .my-class {
   background-color: white;
 }
