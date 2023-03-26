@@ -989,6 +989,23 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.break-normal{
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words{
+  overflow-wrap: break-word;
+}
+
+.break-all{
+  word-break: break-all;
+}
+
+.break-keep{
+  word-break: keep-all;
+}
+
 .rounded{
   border-radius: 0.25rem;
 }
